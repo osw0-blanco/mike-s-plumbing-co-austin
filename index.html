@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austin's Trusted Plumber | Mike's Plumbing Co</title>
+    <meta name="description" content="Affordable and reliable plumbing services in Austin, TX. Rated 4.8 stars. We handle leaks, water heaters, and drain cleaning.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'DM+Serif+Display', serif; }
+        .bg-navy { background-color: #1a365d; }
+        .text-navy { color: #1a365d; }
+        .bg-amber { background-color: #f6ad55; }
+        .text-amber { color: #f6ad55; }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Mike's Plumbing Co",
+      "image": "https://placehold.co/600x400/1a365d/ffffff?text=Mikes+Plumbing",
+      "@id": "",
+      "url": "https://mikesplumbing.com",
+      "telephone": "(512) 555-0123",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1234 Oak St",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postalCode": "78701",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "47"
+      }
+    }
+    </script>
+</head>
+<body class="bg-white text-gray-900 leading-relaxed">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <div class="container mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2">
+                <span class="text-2xl font-bold text-navy tracking-tight">Mike's Plumbing Co</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 font-semibold text-navy">
+                <a href="index.html" class="text-amber">Home</a>
+                <a href="services.html" class="hover:text-amber transition">Services</a>
+                <a href="about.html" class="hover:text-amber transition">About Us</a>
+                <a href="contact.html" class="hover:text-amber transition">Contact</a>
+            </nav>
+
+            <a href="tel:5125550123" class="hidden lg:block bg-navy text-white px-5 py-2 rounded font-bold hover:bg-opacity-90 transition">
+                (512) 555-0123
+            </a>
+
+            <!-- Mobile Menu Placeholder (Simplified) -->
+            <button class="md:hidden text-navy p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 lg:py-32 overflow-hidden">
+        <div class="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-1 text-amber mb-4">
+                    <span class="text-lg">★★★★★</span>
+                    <span class="font-bold text-navy">4.8 Rating from 47 local neighbors</span>
+                </div>
+                <h1 class="text-5xl lg:text-7xl text-navy mb-6 leading-tight">
+                    Austin's Trusted Plumber
+                </h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-lg">
+                    Need a fix fast? We offer honest pricing and clean work for every home in Austin. From leaky pipes to new water heaters, we get it done right.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="contact.html" class="bg-amber text-navy text-center px-8 py-4 rounded-md font-bold text-lg hover:shadow-lg transition">
+                        Get My Free Quote
+                    </a>
+                    <a href="services.html" class="border-2 border-navy text-navy text-center px-8 py-4 rounded-md font-bold text-lg hover:bg-navy hover:text-white transition">
+                        View Our Services
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://placehold.co/600x500/1a365d/ffffff?text=Expert+Austin+Plumbing" alt="Mike working on a plumbing repair" class="rounded-2xl shadow-2xl">
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl hidden md:block">
+                    <p class="text-3xl font-bold text-navy">15+</p>
+                    <p class="text-gray-600 font-medium">Years in Austin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="bg-gray-50 py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl text-navy mb-4">Fixing Everything from Drips to Drains</h2>
+                <div class="w-20 h-1 bg-amber mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🚰</div>
+                    <h3 class="text-2xl text-navy mb-3">Pipe Repairs</h3>
+                    <p class="text-gray-600 mb-4">Fixing leaky pipes, bursts, and noisy plumbing before they cause water damage to your home.</p>
+                    <a href="services.html" class="text-navy font-bold hover:text-amber underline decoration-amber">Learn More</a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🔥</div>
+                    <h3 class="text-2xl text-navy mb-3">Water Heaters</h3>
+                    <p class="text-gray-600 mb-4">We install and repair traditional and tankless water heaters so you never run out of hot water.</p>
+                    <a href="services.html" class="text-navy font-bold hover:text-amber underline decoration-amber">Learn More</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🧼</div>
+                    <h3 class="text-2xl text-navy mb-3">Drain Cleaning</h3>
+                    <p class="text-gray-600 mb-4">Clearing slow drains and stubborn clogs in your kitchen or bathroom sinks and toilets.</p>
+                    <a href="services.html" class="text-navy font-bold hover:text-amber underline decoration-amber">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-3 gap-12 text-center">
+                <div class="p-4">
+                    <div class="w-16 h-16 bg-navy text-amber rounded-full flex items-center justify-center text-3xl mx-auto mb-6">⭐</div>
+                    <h3 class="text-2xl text-navy mb-2">4.8 Star Rating</h3>
+                    <p class="text-gray-600">Based on 47 reviews from real Austin homeowners who trust our work.</p>
+                </div>
+                <div class="p-4">
+                    <div class="w-16 h-16 bg-navy text-amber rounded-full flex items-center justify-center text-3xl mx-auto mb-6">📅</div>
+                    <h3 class="text-2xl text-navy mb-2">15 Years Experience</h3>
+                    <p class="text-gray-600">We have seen every plumbing problem imaginable and know how to fix it fast.</p>
+                </div>
+                <div class="p-4">
+                    <div class="w-16 h-16 bg-navy text-amber rounded-full flex items-center justify-center text-3xl mx-auto mb-6">✅</div>
+                    <h3 class="text-2xl text-navy mb-2">Satisfaction Guarantee</h3>
+                    <p class="text-gray-600">If you aren't happy with our work, we'll make it right. No questions asked.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-navy text-white py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl text-center mb-16 text-amber">What Your Neighbors Say</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-800 p-8 rounded-lg relative">
+                    <span class="text-6xl absolute top-4 right-4 opacity-20">"</span>
+                    <p class="text-lg italic mb-6">"Mike showed up right on time and fixed our kitchen sink in under an hour. He didn't leave a mess and the price was exactly what he quoted. Highly recommend!"</p>
+                    <p class="font-bold">— Sarah J., South Austin</p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-lg relative">
+                    <span class="text-6xl absolute top-4 right-4 opacity-20">"</span>
+                    <p class="text-lg italic mb-6">"Finally a plumber who explains what's wrong without using confusing words. Our new water heater works great and we saved money too."</p>
+                    <p class="font-bold">— David T., Round Rock</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-16 bg-amber">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl text-navy mb-6">Ready to get started? Call us today.</h2>
+            <p class="text-navy text-xl mb-8 opacity-90">Talk directly to Mike and get your plumbing fixed today.</p>
+            <a href="tel:5125550123" class="bg-navy text-white px-10 py-5 rounded-md font-bold text-2xl hover:bg-opacity-90 inline-block transition">
+                (512) 555-0123
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-20 pb-10 border-t border-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-1">
+                    <h3 class="text-xl font-bold text-navy mb-6">Mike's Plumbing Co</h3>
+                    <p class="text-gray-600">Reliable plumbing services for families and businesses across Austin and the surrounding areas.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-navy mb-6">Quick Links</h4>
+                    <ul class="space-y-4 text-gray-600">
+                        <li><a href="index.html" class="hover:text-amber">Home</a></li>
+                        <li><a href="services.html" class="hover:text-amber">Our Services</a></li>
+                        <li><a href="about.html" class="hover:text-amber">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-amber">Contact Mike</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-navy mb-6">Contact Info</h4>
+                    <ul class="space-y-4 text-gray-600">
+                        <li>1234 Oak St<br>Austin, TX 78701</li>
+                        <li>(512) 555-0123</li>
+                        <li>mike@mikesplumbing.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-navy mb-6">Business Hours</h4>
+                    <ul class="space-y-4 text-gray-600">
+                        <li>Mon - Fri: 8am - 6pm</li>
+                        <li>Sat: 9am - 2pm</li>
+                        <li>Sun: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-gray-100 text-gray-500 text-sm">
+                <p>&copy; 2023 Mike's Plumbing Co. All rights reserved. Austin License #123456</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
